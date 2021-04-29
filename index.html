@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ужасный клон OBS</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body style="background: white">
+    <div class="header">
+      <h2>OBS</h2>
+      <p>Закрыть</p>
+    </div>
+    <h1>Никакой эстетичности, просто введи ключ потока и запусти стрим</h1>
+    <input id="url" type="text" placeholder="url" />
+    <input id="key" type="text" placeholder="Ключ потока" />
+    <button id="createStreambtn">Запутить стрим</button>
+
+    <script>
+      require('./js/common.js')
+    </script>
+  </body>
+</html>

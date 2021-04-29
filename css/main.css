@@ -1,0 +1,17 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    width: 100%;
+    background-color: rgb(78, 77, 77);
+    height: 60px;
+    color: white;
+    -webkit-app-region: drag;
+}
